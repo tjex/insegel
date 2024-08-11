@@ -185,7 +185,7 @@ table tbody tr:nth-of-type(odd) code {
 #insegel-container {
   padding-left: 1em;
   padding-right: 1em;
-  max-width: 1300px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -265,7 +265,7 @@ table tbody tr:nth-of-type(odd) code {
 }
 
 #right-sidebar-container {
-  width: 400px;
+  width: 300px;
   margin-left: 2em;
   position: relative;
 }
