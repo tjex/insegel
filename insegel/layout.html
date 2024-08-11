@@ -52,6 +52,14 @@
 
     <div id="content-container">
 
+      {% if theme_right_sidebar %}
+      <div id="right-sidebar-container">
+        <div id="local-toc" role="navigation">
+            {% include "local-toc.html" %}
+        </div>
+      </div>
+      {% endif %}
+
       <div id="main-content-container">
         <div id="main-content" role="main">
           {% block body %}{% endblock %}
@@ -73,8 +81,8 @@
             Free document hosting provided by <a href="https://readthedocs.org">Read the Docs</a>.
           </div>
         {% endif %}
-
       </div>
+
 
     </div>
 
