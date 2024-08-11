@@ -223,6 +223,7 @@ table tbody tr:nth-of-type(odd) code {
 
 #main-content {
   padding: 2em;
+  max-width: 855px;
 }
 #main-content .figure {
   text-align: center;
@@ -278,7 +279,7 @@ table tbody tr:nth-of-type(odd) code {
 #right-sidebar-container #local-toc {
   padding: 2em;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1650px) {
   #right-sidebar-container {
     display: none;
   }

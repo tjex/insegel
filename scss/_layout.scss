@@ -36,6 +36,7 @@
 
 #main-content {
     padding: 2em;
+    max-width: 855px;
 
     .figure {
         text-align: center;
@@ -98,7 +99,7 @@
     #local-toc {
         padding: 2em;
     }
-    @media screen and (max-width: $max-width-medium) {
+    @media screen and (max-width: 1650px) {
         display: none;
     }
 }
